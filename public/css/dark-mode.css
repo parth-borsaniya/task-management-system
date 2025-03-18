@@ -1,0 +1,108 @@
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Navbar */
+.dark-mode .navbar {
+    background-color: #1e1e1e;
+    border-bottom: 1px solid #333;
+}
+
+/* Cards */
+.dark-mode .card {
+    background-color: #242424;
+    color: #e0e0e0;
+    border: 1px solid #333;
+}
+
+/* Tables */
+.dark-mode .table {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border-collapse: collapse;
+}
+
+.dark-mode .table th {
+    background-color: #333;
+    color: #f8f9fa;
+}
+
+.dark-mode .table td {
+    background-color: #242424;
+    border-top: 1px solid #444;
+}
+
+/* List Items */
+.dark-mode .list-group-item {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border: 1px solid #333;
+}
+
+/* Buttons */
+.dark-mode .btn {
+    border-color: #ccc;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.dark-mode .btn-primary {
+    background-color: #007bff;
+    border-color: #0056b3;
+}
+
+.dark-mode .btn-primary:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.dark-mode .btn-danger {
+    background-color: #dc3545;
+    border-color: #a71d2a;
+}
+
+.dark-mode .btn-danger:hover {
+    background-color: #a71d2a;
+    transform: scale(1.05);
+}
+
+/* Inputs */
+.dark-mode .form-control {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border: 1px solid #444;
+}
+
+.dark-mode .form-control:focus {
+    background-color: #242424;
+    color: #e0e0e0;
+    border-color: #90caf9;
+    box-shadow: 0 0 5px rgba(144, 202, 249, 0.5);
+}
+
+/* Links */
+.dark-mode a {
+    color: #90caf9;
+    transition: color 0.3s;
+}
+
+.dark-mode a:hover {
+    color: #42a5f5;
+    text-decoration: underline;
+}
+
+/* Scrollbar (for better UI in dark mode) */
+.dark-mode ::-webkit-scrollbar {
+    width: 8px;
+}
+
+.dark-mode ::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 4px;
+}
+
+.dark-mode ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
